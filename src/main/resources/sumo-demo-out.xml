@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Aug  1 01:38:32 2017 by SUMO Version 0.28.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/tmp/netconvert-out-21502YoRwn8UN8HnU.net.xml"/>
+        <route-files value="/tmp/generated-route-21502A3q99BWgDklm.xml"/>
+        <additional-files value="/tmp/vehicletypes-21502CV30sDNaFaAu.tmp,/tmp/polyconvert-out-21502PqvKpE4qp7H3.xml"/>
+    </input>
+
+    <output>
+        <emission-output value="/tmp/oshawa.tmp"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="1500"/>
+    </time>
+
+    <processing>
+        <scale value="1"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<emission-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/emission_file.xsd">
+    <timestep time="0.00">
+        <vehicle id="0" eclass="HBEFA2/P_7_7" CO2="601.69" CO="6.37" HC="0.35" NOx="0.84" PMx="0.02" fuel="0.24" electricity="0.00" noise="55.94" route="!0" type="DEFAULT_VEHTYPE" waiting="0.00" lane="29276269#0_0" pos="5.10" speed="0.00" angle="140.06" x="5401.76" y="12988.64"/>
+        <vehicle id="1" eclass="HBEFA2/P_7_7" CO2="601.69" CO="6.37" HC="0.35" NOx="0.84" PMx="0.02" fuel="0.24" electricity="0.00" noise="55.94" route="!1" type="DEFAULT_VEHTYPE" waiting="0.00" lane="-29276407_0" pos="5.10" speed="0.00" angle="251.71" x="6358.01" y="9101.78"/>
+        <vehicle id="2" eclass="HBEFA2/P_7_7" CO2="601.69" CO="6.37" HC="0.35" NOx="0.84" PMx="0.02" fuel="0.24" electricity="0.00" noise="55.94" route="!2" type="DEFAULT_VEHTYPE" waiting="0.00" lane="146418413#0_0" pos="5.10" speed="0.00" angle="313.88" x="5438.49" y="9641.82"/>
+        <vehicle id="3" eclass="HBEFA2/P_7_7" CO2="601.69" CO="6.37" HC="0.35" NOx="0.84" PMx="0.02" fuel="0.24" electricity="0.00" noise="55.94" route="!3" type="DEFAULT_VEHTYPE" waiting="0.00" lane="34190587_0" pos="5.10" speed="0.00" angle="161.40" x="9137.70" y="4326.99"/>
+        <vehicle id="4" eclass="HBEFA2/P_7_7" CO2="601.69" CO="6.37" HC="0.35" NOx="0.84" PMx="0.02" fuel="0.24" electricity="0.00" noise="55.94" route="!4" type="DEFAULT_VEHTYPE" waiting="0.00" lane="242551825#6_0" pos="5.10" speed="0.00" angle="249.80" x="9678.85" y="8896.07"/>
+        <vehicle id="5" eclass="HBEFA2/P_7_7" CO2="601.69" CO="6.37" HC="0.35" NOx="0.84" PMx="0.02" fuel="0.24" electricity="0.00" noise="55.94" route="!5" type="DEFAULT_VEHTYPE" waiting="0.00" lane="-25512114#1_0" pos="5.10" speed="0.00" angle="218.54" x="9348.89" y="906.32"/>
+    </timestep>
+</emission-export>
